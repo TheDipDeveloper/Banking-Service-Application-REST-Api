@@ -24,7 +24,7 @@ curl --location 'http://localhost:8080/account/add' \
 "balance": 5000
 }'
 </code>
-![](.\src\main\resources\static\1.PNG)
+![](https://github.com/TheDipDeveloper/Banking-Service-Application-REST-Api/blob/main/src/main/resources/static/1.PNG)
 
 ### 2. GET api to get the account detail
    URI: http://localhost:8080/account/get/1
@@ -32,7 +32,7 @@ curl --location 'http://localhost:8080/account/add' \
 CURL: <code>
 curl --location 'http://localhost:8080/account/get/1'
 </code>
-![](.\src\main\resources\static\2.PNG)
+![](https://github.com/TheDipDeveloper/Banking-Service-Application-REST-Api/blob/main/src/main/resources/static/2.PNG)
 
 ### 3. GET api to get all account detail
    URI: http://localhost:8080/account/get/all
@@ -40,7 +40,7 @@ curl --location 'http://localhost:8080/account/get/1'
 CURL: <code>
 curl --location 'http://localhost:8080/account/get/all'
 </code>
-![](.\src\main\resources\static\3.PNG)
+![](https://github.com/TheDipDeveloper/Banking-Service-Application-REST-Api/blob/main/src/main/resources/static/3.PNG)
 
 ### 4. Put Api to withdraw amount
    URI: http://localhost:8080/account/withdraw
@@ -53,7 +53,7 @@ curl --location --request PUT 'http://localhost:8080/account/withdraw' \
 "amount": 200
 }'
 </code>
-![](.\src\main\resources\static\4.PNG)
+![](https://github.com/TheDipDeveloper/Banking-Service-Application-REST-Api/blob/main/src/main/resources/static/4.PNG)
 
 ### 5. Put Api to deposit amount
    URI: http://localhost:8080/account/deposit
@@ -66,7 +66,7 @@ curl --location --request PUT 'http://localhost:8080/account/deposit' \
 "amount": 200
 }'
 </code>
-![](.\src\main\resources\static\5.PNG)
+![](https://github.com/TheDipDeveloper/Banking-Service-Application-REST-Api/blob/main/src/main/resources/static/5.PNG)
 
 ### 6. Put Api to transfer amount
    URI: http://localhost:8080/account/transfer
@@ -80,7 +80,7 @@ curl --location --request PUT 'http://localhost:8080/account/transfer' \
 "amount": 100
 }'
 </code>
-![](.\src\main\resources\static\6.PNG)
+![](https://github.com/TheDipDeveloper/Banking-Service-Application-REST-Api/blob/main/src/main/resources/static/6.PNG)
 
 ### 7. DELETE api to delete the account detail
    URI: http://localhost:8080/account/delete/1
@@ -88,5 +88,5 @@ curl --location --request PUT 'http://localhost:8080/account/transfer' \
 CURL: <code>
 curl --location --request DELETE 'http://localhost:8080/account/delete/1'
 </code>
-![](.\src\main\resources\static\7.PNG)
+![](https://github.com/TheDipDeveloper/Banking-Service-Application-REST-Api/blob/main/src/main/resources/static/7.PNG)
 
